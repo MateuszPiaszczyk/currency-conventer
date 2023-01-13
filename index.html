@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/conteiner.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/currency-conventer.js"></script>    
+    <title>Currency Conventer | Przelicznik Walut</title>
+</head>
+
+<body class="body">
+    <div class="cover-bg">
+    <div class="conteiner">
+        <h1 class="main__heading">
+           PiaszczykStudio | Currency Conventer app ver 1.0
+        </h1>
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend form__legend--header">
+                        Currency Conventer/Przelicznik walut
+                </legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                           Kwota <span class="form__field--important">*</span>:
+                        </span>
+                        <input placeholder="Wpisz kwotę w zł" class="form__field js-amount" min="0" type="number" required step="0.01">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                           Waluta jaką mam
+                        </span>
+                        <select class="form__field js-currency">
+                            <option value="PLN">🇵🇱 Polski złoty</option> 
+                            <option value="USD">🇺🇸 Doral amerykański</option>
+                            <option value="CAD">🇨🇦 Doral kanadyjski</option>
+                            <option value="EUR">🇪🇺 Euro</option>
+                            <option value="GBP">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Funt szterling</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                           Waluta jaką chcę
+                        </span>
+                        <select class="form__field js-currency">
+                            <option value="PLN">🇵🇱 Polski złoty</option> 
+                            <option value="USD">🇺🇸 Doral amerykański</option>
+                            <option value="CAD">🇨🇦 Doral kanadyjski</option>
+                            <option value="EUR">🇪🇺 Euro</option>
+                            <option value="GBP">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Funt szterling</option>
+                        </select>
+                    </label>
+                </p>
+                    <button class="form__button">Przelicz Walutę</button>
+                </p>
+                <p class="form__info"> Kursy Walut na podstawie danych z Tabeli nr 008/A/NBP/2023 z dnia 2023-01-12 </p>
+                <p class="form__result js-result">
+
+                </p>
+            </fieldset>
+        </form>
+
+    </div>
+    </div>
+</body>
+
+</html>
