@@ -10,7 +10,7 @@ html {
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     margin: 0 auto;
-    background-image: url(../images/money.jpg);
+    background-image: url("../images/money.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
