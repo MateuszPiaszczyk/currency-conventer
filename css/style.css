@@ -5,11 +5,8 @@ html {
     box-sizing: inherit;
 }
 .body{
-    min-height: 100vh;
-    max-width: 650px;
     font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    margin: 0 auto;
+    line-height: 1.5;   
     background-image: url("../images/money.jpg");
     background-size: cover;
     background-position: center;
