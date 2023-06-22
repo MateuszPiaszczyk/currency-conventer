@@ -6,12 +6,6 @@ ENG: Currency converter that allows you to convert PLN exchange rate to the USD,
 PL: Przelicznik walut pozwalający przeliczyc kurs złotówki na dolar amarykański, dolar kanadyjski, funt szterling, euro. Aplikacja stworzona w ramach pracy domowej kursu #youcode ;)
 
 # Technologies and practices used / Technologie i praktyki
-1.BEM
-
-2.HTML
-
-3.CSS
-
-4.JS
+`BEM` `HTML` `CSS` `JS`
 # Demo Link
 https://mateuszpiaszczyk.github.io/currency-conventer/
